@@ -25,3 +25,37 @@ const alma=almaExist ?? ”Nem létezem” //alma értéke: ”Van bennem string
 almaExist=false
 const korte=almaExist ?? ”Nem létezem”  //korte értéke: false
   ```
+## ...
+Spread operátor. Beletölti az adatot az objektumba
+```javascript
+const alma={
+  finom:true,
+  edes:true,
+}
+const gyumolcs={...alma} //{finom:true,  edes:true}
+
+const kortek=["Édes","Finom"]
+const gyumolcsok=[...kortek] // ["Édes","Finom"]
+  ```
+
+## &&
+Truthy-falsy vizsgálat
+
+```javascript
+const alma='alma';
+const korte=false;
+const gyumolcs=alma && korte //true
+  ```
+ ## !
+ Not operátor
+ ```javascript
+ const alma=undefined;
+ const korte=!alma; //True, mert alma értéke undefined, ami falsy
+ ```
+ 
+ ## !!
+ Kettő darab not operátor. Gyakorlatilag mindent bool-lá kasztolhatsz vele, truthy-false értéke alapján
+ ```javascript
+ const alma=undefined;
+ const korte=!!alma;  //false
+ ```
