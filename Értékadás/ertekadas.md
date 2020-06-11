@@ -10,7 +10,7 @@ const alma=almaExist ? ”Létezik” : ”Nem létezik”	//Alma értéke Léte
 ```
 
 ## ||
-Ha a feltétel amit vizsgálsz értéke truthy, akkor azt az értéket kapja, különben második 
+Ha a feltétel amit vizsgálsz értéke truthy, akkor azt az értéket kapja, különben második. OR operátor
 ```javascript
 let almaExist=”Van bennem string így truthy vagyok”
 const alma=almaExist || ”Nem létezem” //alma értéke: ”Van bennem string így truthy vagyok”
@@ -18,7 +18,7 @@ almaExist=false
 const korte=almaExist || ”Nem létezem”  //korte értéke: "Nem létezem"
   ```
 ## ??
-Ha nem null vagy undefined akkor legyen az az értéke, különben a másik
+Ha nem null vagy undefined akkor legyen az az értéke, különben a másik. 
 ```javascript
 let almaExist=”Van bennem string így truthy vagyok”
 const alma=almaExist ?? ”Nem létezem” //alma értéke: ”Van bennem string így truthy vagyok”
@@ -39,7 +39,7 @@ const gyumolcsok=[...kortek] // ["Édes","Finom"]
   ```
 
 ## &&
-Truthy-falsy vizsgálat
+Truthy-falsy vizsgálat. AND operátor.
 
 ```javascript
 const alma='alma';
@@ -47,7 +47,7 @@ const korte=false;
 const gyumolcs=alma && korte //true
   ```
  ## !
- Not operátor
+ NOT operátor
  ```javascript
  const alma=undefined;
  const korte=!alma; //True, mert alma értéke undefined, ami falsy
