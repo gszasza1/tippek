@@ -2,8 +2,7 @@
 
 ## Controlled:
 
-state visszatöltésre kerül. Ha szeretnél alap értéket, akkor state-ben kell megadnod
-<input value={this.state.inputValue} onChange={e => this.setState({inputValue:e.target.value})}/>
+state visszatöltésre kerül. Ha szeretnél alap értéket, akkor state-ben kell megadnod ```<input value={this.state.inputValue} onChange={e => this.setState({inputValue:e.target.value})}/>```
 
 ## Uncontrolled
 
