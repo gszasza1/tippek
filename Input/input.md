@@ -7,11 +7,10 @@
 
 ## Uncontrolled
 
-    state nem kerül visszatöltésre. Ha szeretnél alap értéket, akkor defaultState kell megadni-ben kell megadnod
+    state nem kerül visszatöltésre. Ha szeretnél alap értéket, akkor **defaultState kell megadni-ben kell megadnod
 ```<input defaultState=”Alma” onChange={e => this.setState({inputValue:e.target.value})}/>```
 
 ## Függvények
-
     Párat csak említés szintjén.
 
 ### OnBlur
