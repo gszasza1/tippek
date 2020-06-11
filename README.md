@@ -1,2 +1,2 @@
-# tippek
-Tanulós tippek
+# Tippek
+Tanulós tippek kezdó Javascript-React fejlesztőknek
