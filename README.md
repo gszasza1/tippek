@@ -1,0 +1,2 @@
+# tippek
+Tanulós tippek
